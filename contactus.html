@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact us</title>
+<style>
+body{
+  background-color:black;
+}
+
+nav{
+  height:25px;
+  background-color:none;
+  width:100%;
+}
+nav ul{
+  list-style:none;
+  padding-left:0;
+  display:flex;
+  
+}
+nav ul li{
+  background-color:black;
+  font-size:30px;
+  text-align:center;
+  width:20%;
+}
+nav ul li:hover{
+  background-color:darkmagenta;
+  text-align:center;
+     
+}
+nav a{
+  text-decoration:none;
+  color:white;
+  display:black;
+  padding:0 15px;
+}
+.container{
+	border-radius:5px;
+	padding:20px;
+}
+.sub{
+	background-color:palegreen;
+}
+.sub:hover{
+	background-color:forestgreen;
+}
+h1{
+	font-family:cursive;
+	text-decoration:underline;
+	color:white;
+	font-size:40px;
+	
+}
+.a{
+	font-family:cursive;
+	color:white;
+	font-size:30px;
+	text-decoration:bold;
+}
+table tr td{
+	border-color:palewhite;
+}
+input[type=text],textarea{
+	border:1px solid black;
+}
+.f1{
+	color:white;
+}
+</style>
+</head>
+<body>
+
+<nav>
+	<ul>
+		<li><a href="home.html"><b>HOME</b></li>
+		<li><a href="services.html"><b>SERVICES</b></li>
+		<li><a href="gallery.html"><b>GALLERY</b></li>
+		<li><a href="contactus.html"><b>CONTACTUS</b></li>
+	</ul>
+</nav><br>
+<h1 align="center"><b>CONTACTUS</b></h1>
+<p class="a">For any queries ,please follow the tab and drop your  query in the form and and we will be responding to them.</p>
+<div class="container">
+	<center>
+	<table cellpadding="12" border="2" height="300" width="300" style="border-color:white;"><tr><td>
+	<form class="f1">
+	<b>First Name:</b><input type="text" name="fname" id="fname" maxlength="20" placeholder="Your name"/><br><br>
+	<b>Last Name:</b><input type="text" id="lname" name="lname" maxlength="20" placeholder="Your Surname"/><br><br>
+	<b>Email:</b><input type="text" id="email" name="email" maxlength="20"placeholder="your email id"/><br><br>
+	<b>Your Query: </b><textarea rows="5" cols="50" id="query" name="query" placeholder="Enter your query"></textarea><br><br>
+	<input type="submit" class="sub" value="submit"/>
+	</form>
+	</table></tr></td>
+	</center>
+</div> 
+<h1 align="center">You can also contact us through--</h1>
+<font color="lightcyan" size="20"><b>
+<h6>WhatsApp/Phone number: 9876543210<br>
+Mail id: evenzone@gmail.com<br></b>
+</h6>
+</font> 
+</body>
+</html>
